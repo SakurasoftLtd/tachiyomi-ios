@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		075DC81CCB4F1748FFB71F2D /* Pods_Tachiyomi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6238F85BDE646D4F3637E0 /* Pods_Tachiyomi.framework */; };
 		6035429A04831C98F983043B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354501B7976021B9444DF9 /* SceneDelegate.swift */; };
 		603549E3A931EADEFF9CAE62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603544AD0E53A7B268B982AD /* Assets.xcassets */; };
 		60354B9EA4E80C9ADE0625E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354013A92D96A0D8081483 /* AppDelegate.swift */; };
@@ -14,12 +15,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DA42EC82F150FBB31C42618 /* Pods-Tachiyomi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tachiyomi.debug.xcconfig"; path = "Target Support Files/Pods-Tachiyomi/Pods-Tachiyomi.debug.xcconfig"; sourceTree = "<group>"; };
 		60354013A92D96A0D8081483 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		603540F6E7C88D613B9C79C8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		603544AD0E53A7B268B982AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60354501B7976021B9444DF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		60354B49EBEBE1F92A0CE46C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		60354D9CF2F7A26E286075FA /* Tachiyomi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tachiyomi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F6238F85BDE646D4F3637E0 /* Pods_Tachiyomi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tachiyomi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73D1F6375C3B867A0269007 /* Pods-Tachiyomi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tachiyomi.release.xcconfig"; path = "Target Support Files/Pods-Tachiyomi/Pods-Tachiyomi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,12 +31,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				075DC81CCB4F1748FFB71F2D /* Pods_Tachiyomi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47D36F644D4A05469C5AA48F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DA42EC82F150FBB31C42618 /* Pods-Tachiyomi.debug.xcconfig */,
+				F73D1F6375C3B867A0269007 /* Pods-Tachiyomi.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		60354019577DD59D12BB1089 /* Tachiyomi */ = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +80,8 @@
 			children = (
 				60354D3110295D4441C28664 /* Products */,
 				60354019577DD59D12BB1089 /* Tachiyomi */,
+				47D36F644D4A05469C5AA48F /* Pods */,
+				E89755A177F12ABEFBF3B918 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +102,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E89755A177F12ABEFBF3B918 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F6238F85BDE646D4F3637E0 /* Pods_Tachiyomi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -92,9 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 603547826354FBB18E91EE49 /* Build configuration list for PBXNativeTarget "Tachiyomi" */;
 			buildPhases = (
+				20CD07608BDDCAF47274A402 /* [CP] Check Pods Manifest.lock */,
 				6035426456E08AE652F23F15 /* Sources */,
 				60354E8A347F3AE230D8A15C /* Frameworks */,
 				603545C96EBE3B173C5AD8A7 /* Resources */,
+				97052A6E255B752E0A9A4E74 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -142,6 +169,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20CD07608BDDCAF47274A402 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tachiyomi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97052A6E255B752E0A9A4E74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tachiyomi/Pods-Tachiyomi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tachiyomi/Pods-Tachiyomi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6035426456E08AE652F23F15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -157,6 +229,7 @@
 /* Begin XCBuildConfiguration section */
 		603544560FF27B6FB8AFB3D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA42EC82F150FBB31C42618 /* Pods-Tachiyomi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -225,6 +298,7 @@
 		};
 		60354920B9E3733D57FFDC7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F73D1F6375C3B867A0269007 /* Pods-Tachiyomi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
