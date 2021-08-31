@@ -10,15 +10,21 @@
 		075DC81CCB4F1748FFB71F2D /* Pods_Tachiyomi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6238F85BDE646D4F3637E0 /* Pods_Tachiyomi.framework */; };
 		1646964226DE96F200B9E5F7 /* LocalizationUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1646964126DE96F200B9E5F7 /* LocalizationUtilities.swift */; };
 		1646964526DE986B00B9E5F7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1646964726DE986B00B9E5F7 /* Localizable.strings */; };
+		603541304ADBCFBC43DF4697 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354ECB3D57B2170EE01D47 /* HistoryViewController.swift */; };
 		6035418B27692C0BF91EA86A /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354B9DCDF875BD6CC5B786 /* RootTabBarController.swift */; };
 		6035429A04831C98F983043B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354501B7976021B9444DF9 /* SceneDelegate.swift */; };
 		603542CE4F5F2406581E3346 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603546BB24214D80E7D989A7 /* BaseTabBarController.swift */; };
+		603544C8C5CAF26E221D5B1C /* LibraryRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6035464DD69568BD78303A6B /* LibraryRootViewController.swift */; };
+		603544FACE81EDDE2ED50EB0 /* UpdatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354861BD87EA2205CF9775 /* UpdatesViewController.swift */; };
+		60354872E385F6EA31DED2DE /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354B755BEEFDB3017996F2 /* MoreViewController.swift */; };
+		603548BE91DD9CBE6DEEF40A /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6035468725209644931373F4 /* BrowseViewController.swift */; };
 		603548C7B45875480BA26505 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6035488D784A93E9CAA23823 /* BaseNavigationController.swift */; };
 		603549C578269CB91191842B /* NavigableTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6035483C7B7CB42CF33E5E7D /* NavigableTab.swift */; };
 		603549E3A931EADEFF9CAE62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603544AD0E53A7B268B982AD /* Assets.xcassets */; };
 		60354B9EA4E80C9ADE0625E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354013A92D96A0D8081483 /* AppDelegate.swift */; };
 		60354CED01C20CA19A50325D /* UIColor+Tachiyomi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603548F03285C5686E01A3E4 /* UIColor+Tachiyomi.swift */; };
 		60354DBA2C14B8FF9A8A2AC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603540F6E7C88D613B9C79C8 /* LaunchScreen.storyboard */; };
+		60354DE0B162D1F3D021FE8B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354B307514CA5FA062F1AC /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,13 +36,19 @@
 		603540F6E7C88D613B9C79C8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		603544AD0E53A7B268B982AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60354501B7976021B9444DF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6035464DD69568BD78303A6B /* LibraryRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryRootViewController.swift; sourceTree = "<group>"; };
+		6035468725209644931373F4 /* BrowseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
 		603546BB24214D80E7D989A7 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 		6035483C7B7CB42CF33E5E7D /* NavigableTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigableTab.swift; sourceTree = "<group>"; };
+		60354861BD87EA2205CF9775 /* UpdatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatesViewController.swift; sourceTree = "<group>"; };
 		6035488D784A93E9CAA23823 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		603548F03285C5686E01A3E4 /* UIColor+Tachiyomi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Tachiyomi.swift"; sourceTree = "<group>"; };
+		60354B307514CA5FA062F1AC /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		60354B49EBEBE1F92A0CE46C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		60354B755BEEFDB3017996F2 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		60354B9DCDF875BD6CC5B786 /* RootTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
 		60354D9CF2F7A26E286075FA /* Tachiyomi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tachiyomi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60354ECB3D57B2170EE01D47 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		7F6238F85BDE646D4F3637E0 /* Pods_Tachiyomi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tachiyomi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73D1F6375C3B867A0269007 /* Pods-Tachiyomi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tachiyomi.release.xcconfig"; path = "Target Support Files/Pods-Tachiyomi/Pods-Tachiyomi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +92,22 @@
 			path = Tachiyomi;
 			sourceTree = "<group>";
 		};
+		6035441D4FABB3950039A72D /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				6035468725209644931373F4 /* BrowseViewController.swift */,
+			);
+			path = Browse;
+			sourceTree = "<group>";
+		};
+		6035472BFEB2DFE2DD3DB120 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				6035464DD69568BD78303A6B /* LibraryRootViewController.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		603548373FD80413AE9D0730 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +119,22 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		603548BB97E70936E9BF43FD /* Updates */ = {
+			isa = PBXGroup;
+			children = (
+				60354861BD87EA2205CF9775 /* UpdatesViewController.swift */,
+			);
+			path = Updates;
+			sourceTree = "<group>";
+		};
+		603549B33E1F76EB238BF777 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				60354B755BEEFDB3017996F2 /* MoreViewController.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
 		603549D3D7B8C3F2CBB7E0D7 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +142,14 @@
 				6035483C7B7CB42CF33E5E7D /* NavigableTab.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		603549E9F9C825047A4A8FA6 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				60354ECB3D57B2170EE01D47 /* HistoryViewController.swift */,
+			);
+			path = History;
 			sourceTree = "<group>";
 		};
 		60354A61D98B967E5805FE13 /* Source */ = {
@@ -115,6 +167,11 @@
 			children = (
 				603549D3D7B8C3F2CBB7E0D7 /* Navigation */,
 				60354EDEAC87EB54EA03B69A /* Base */,
+				6035472BFEB2DFE2DD3DB120 /* Library */,
+				603548BB97E70936E9BF43FD /* Updates */,
+				603549E9F9C825047A4A8FA6 /* History */,
+				603549B33E1F76EB238BF777 /* More */,
+				6035441D4FABB3950039A72D /* Browse */,
 			);
 			path = Interface;
 			sourceTree = "<group>";
@@ -151,6 +208,7 @@
 			children = (
 				603546BB24214D80E7D989A7 /* BaseTabBarController.swift */,
 				6035488D784A93E9CAA23823 /* BaseNavigationController.swift */,
+				60354B307514CA5FA062F1AC /* BaseViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -282,6 +340,12 @@
 				603548C7B45875480BA26505 /* BaseNavigationController.swift in Sources */,
 				603549C578269CB91191842B /* NavigableTab.swift in Sources */,
 				60354CED01C20CA19A50325D /* UIColor+Tachiyomi.swift in Sources */,
+				603544C8C5CAF26E221D5B1C /* LibraryRootViewController.swift in Sources */,
+				603541304ADBCFBC43DF4697 /* HistoryViewController.swift in Sources */,
+				603544FACE81EDDE2ED50EB0 /* UpdatesViewController.swift in Sources */,
+				60354872E385F6EA31DED2DE /* MoreViewController.swift in Sources */,
+				60354DE0B162D1F3D021FE8B /* BaseViewController.swift in Sources */,
+				603548BE91DD9CBE6DEEF40A /* BrowseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
