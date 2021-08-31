@@ -13,6 +13,7 @@ class LibraryItemCollectionViewCell: UICollectionViewCell, Identified {
     private lazy var itemCoverImageView: UIImageView = {
         let it = UIImageView()
         it.translatesAutoresizingMaskIntoConstraints = false
+        it.backgroundColor = .darkGray
         return it
     }()
 
@@ -20,6 +21,8 @@ class LibraryItemCollectionViewCell: UICollectionViewCell, Identified {
         let it = UILabel()
         it.setContentHuggingPriority(.required, for: .vertical)
         it.numberOfLines = 0
+        it.font = UIFont.tachiyomiLibraryItemTitle
+        it.textColor = .white
         it.translatesAutoresizingMaskIntoConstraints = false
         return it
     }()
@@ -38,6 +41,7 @@ class LibraryItemCollectionViewCell: UICollectionViewCell, Identified {
 
         backgroundColor = .white
         layer.cornerRadius = 10
+        clipsToBounds = true
 
         [itemCoverImageView, itemTitleLabel].forEach(contentView.addSubview)
 
@@ -46,12 +50,12 @@ class LibraryItemCollectionViewCell: UICollectionViewCell, Identified {
         }
 
         itemTitleLabel.snp.makeConstraints { (make: ConstraintMaker) in
-            make.bottom.leading.trailing.equalToSuperview().inset(8)
+            make.bottom.leading.trailing.equalToSuperview().inset(16)
         }
     }
 
     func bind(to model: LibraryItem) {
         itemTitleLabel.text = model.title
-        itemCoverImageView.image = UIImage()
+        itemCoverImageView.image = nil
     }
 }

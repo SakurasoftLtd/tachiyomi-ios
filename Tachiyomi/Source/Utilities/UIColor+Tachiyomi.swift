@@ -39,4 +39,8 @@ extension UIColor {
     static var tachiyomiNavigationTitle: UIColor {
         UIColor(hexString: "FFFFFF", alpha: 0x80 / 255)
     }
+
+    static var tachiyomiSplashBackground: UIColor {
+        UIColor(hexString: "#3399FF", alpha: 0x1F / 255)
+    }
 }
