@@ -7,6 +7,8 @@ target 'Tachiyomi' do
 
   # Pods for Tachiyomi
   pod 'RxSwift'
+  pod 'RxRelay'
+  pod 'RxDataSources'
   pod 'SnapKit'
 
 end

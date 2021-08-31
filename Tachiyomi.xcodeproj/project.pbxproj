@@ -10,10 +10,12 @@
 		075DC81CCB4F1748FFB71F2D /* Pods_Tachiyomi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6238F85BDE646D4F3637E0 /* Pods_Tachiyomi.framework */; };
 		1646964226DE96F200B9E5F7 /* LocalizationUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1646964126DE96F200B9E5F7 /* LocalizationUtilities.swift */; };
 		1646964526DE986B00B9E5F7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1646964726DE986B00B9E5F7 /* Localizable.strings */; };
+		603540FEAEBD5197072FB604 /* Identified.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354AEDF1A1E75D677F0BD5 /* Identified.swift */; };
 		603541304ADBCFBC43DF4697 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354ECB3D57B2170EE01D47 /* HistoryViewController.swift */; };
 		6035418B27692C0BF91EA86A /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354B9DCDF875BD6CC5B786 /* RootTabBarController.swift */; };
 		6035429A04831C98F983043B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354501B7976021B9444DF9 /* SceneDelegate.swift */; };
 		603542CE4F5F2406581E3346 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603546BB24214D80E7D989A7 /* BaseTabBarController.swift */; };
+		603543435914075AA9AC2053 /* LibraryItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354AE91784D53F80E2D622 /* LibraryItemCollectionViewCell.swift */; };
 		603544C8C5CAF26E221D5B1C /* LibraryRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6035464DD69568BD78303A6B /* LibraryRootViewController.swift */; };
 		603544FACE81EDDE2ED50EB0 /* UpdatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354861BD87EA2205CF9775 /* UpdatesViewController.swift */; };
 		60354872E385F6EA31DED2DE /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354B755BEEFDB3017996F2 /* MoreViewController.swift */; };
@@ -21,10 +23,12 @@
 		603548C7B45875480BA26505 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6035488D784A93E9CAA23823 /* BaseNavigationController.swift */; };
 		603549C578269CB91191842B /* NavigableTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6035483C7B7CB42CF33E5E7D /* NavigableTab.swift */; };
 		603549E3A931EADEFF9CAE62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603544AD0E53A7B268B982AD /* Assets.xcassets */; };
+		60354AD4D21D7040000F955F /* LibraryRootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354691BB7E00EDAD59FF27 /* LibraryRootViewModel.swift */; };
 		60354B9EA4E80C9ADE0625E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354013A92D96A0D8081483 /* AppDelegate.swift */; };
 		60354CED01C20CA19A50325D /* UIColor+Tachiyomi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603548F03285C5686E01A3E4 /* UIColor+Tachiyomi.swift */; };
 		60354DBA2C14B8FF9A8A2AC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603540F6E7C88D613B9C79C8 /* LaunchScreen.storyboard */; };
 		60354DE0B162D1F3D021FE8B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354B307514CA5FA062F1AC /* BaseViewController.swift */; };
+		60354E7E6C0FD766DA24EFB3 /* LibraryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6035431592E83BE36BC96A50 /* LibraryItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,15 +38,19 @@
 		1DA42EC82F150FBB31C42618 /* Pods-Tachiyomi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tachiyomi.debug.xcconfig"; path = "Target Support Files/Pods-Tachiyomi/Pods-Tachiyomi.debug.xcconfig"; sourceTree = "<group>"; };
 		60354013A92D96A0D8081483 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		603540F6E7C88D613B9C79C8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6035431592E83BE36BC96A50 /* LibraryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryItem.swift; sourceTree = "<group>"; };
 		603544AD0E53A7B268B982AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60354501B7976021B9444DF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6035464DD69568BD78303A6B /* LibraryRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryRootViewController.swift; sourceTree = "<group>"; };
 		6035468725209644931373F4 /* BrowseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
+		60354691BB7E00EDAD59FF27 /* LibraryRootViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryRootViewModel.swift; sourceTree = "<group>"; };
 		603546BB24214D80E7D989A7 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 		6035483C7B7CB42CF33E5E7D /* NavigableTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigableTab.swift; sourceTree = "<group>"; };
 		60354861BD87EA2205CF9775 /* UpdatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatesViewController.swift; sourceTree = "<group>"; };
 		6035488D784A93E9CAA23823 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		603548F03285C5686E01A3E4 /* UIColor+Tachiyomi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Tachiyomi.swift"; sourceTree = "<group>"; };
+		60354AE91784D53F80E2D622 /* LibraryItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		60354AEDF1A1E75D677F0BD5 /* Identified.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identified.swift; sourceTree = "<group>"; };
 		60354B307514CA5FA062F1AC /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		60354B49EBEBE1F92A0CE46C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		60354B755BEEFDB3017996F2 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +78,7 @@
 			children = (
 				1646964126DE96F200B9E5F7 /* LocalizationUtilities.swift */,
 				603548F03285C5686E01A3E4 /* UIColor+Tachiyomi.swift */,
+				60354AEDF1A1E75D677F0BD5 /* Identified.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -100,10 +109,20 @@
 			path = Browse;
 			sourceTree = "<group>";
 		};
+		60354645964033AB5B8D4AE3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6035431592E83BE36BC96A50 /* LibraryItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		6035472BFEB2DFE2DD3DB120 /* Library */ = {
 			isa = PBXGroup;
 			children = (
 				6035464DD69568BD78303A6B /* LibraryRootViewController.swift */,
+				60354691BB7E00EDAD59FF27 /* LibraryRootViewModel.swift */,
+				60354AE91784D53F80E2D622 /* LibraryItemCollectionViewCell.swift */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -158,6 +177,7 @@
 				1646964026DE96E600B9E5F7 /* Utilities */,
 				60354C71F09DD3BDF5BD41EC /* Lifecycle */,
 				60354C0C751BE9334B226D7A /* Interface */,
+				60354645964033AB5B8D4AE3 /* Models */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -312,11 +332,19 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Tachiyomi/Pods-Tachiyomi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
@@ -346,6 +374,10 @@
 				60354872E385F6EA31DED2DE /* MoreViewController.swift in Sources */,
 				60354DE0B162D1F3D021FE8B /* BaseViewController.swift in Sources */,
 				603548BE91DD9CBE6DEEF40A /* BrowseViewController.swift in Sources */,
+				60354AD4D21D7040000F955F /* LibraryRootViewModel.swift in Sources */,
+				603543435914075AA9AC2053 /* LibraryItemCollectionViewCell.swift in Sources */,
+				60354E7E6C0FD766DA24EFB3 /* LibraryItem.swift in Sources */,
+				603540FEAEBD5197072FB604 /* Identified.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
