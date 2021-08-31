@@ -6,11 +6,11 @@ import Foundation
 import UIKit
 
 enum NavigableTab: Int, CaseIterable {
-    case one
-    case two
-    case three
-    case four
-    case five
+    case library
+    case updates
+    case history
+    case browse
+    case more
 
     func tabAfter() -> NavigableTab? {
         return NavigableTab(rawValue: rawValue + 1)
@@ -22,33 +22,33 @@ enum NavigableTab: Int, CaseIterable {
 
     func createViewController() -> UIViewController {
         switch self {
-        case .one:
+        case .library:
             let vc = UIViewController()
-            let tabItem = UITabBarItem(title: "One", image: nil, tag: rawValue)
+            let tabItem = UITabBarItem(title: "tab_library".localizedValue, image: UIImage(named: "ic_library"), tag: rawValue)
             vc.tabBarItem = tabItem
             vc.view.backgroundColor = .red
             return vc
-        case .two:
+        case .updates:
             let vc = UIViewController()
-            let tabItem = UITabBarItem(title: "Two", image: nil, tag: rawValue)
+            let tabItem = UITabBarItem(title: "tab_updates".localizedValue, image: UIImage(named: "ic_updates"), tag: rawValue)
             vc.tabBarItem = tabItem
             vc.view.backgroundColor = .blue
             return vc
-        case .three:
+        case .history:
             let vc = UIViewController()
-            let tabItem = UITabBarItem(title: "Three", image: nil, tag: rawValue)
+            let tabItem = UITabBarItem(title: "tab_history".localizedValue, image: UIImage(named: "ic_history"), tag: rawValue)
             vc.tabBarItem = tabItem
             vc.view.backgroundColor = .green
             return vc
-        case .four:
+        case .browse:
             let vc = UIViewController()
-            let tabItem = UITabBarItem(title: "Four", image: nil, tag: rawValue)
+            let tabItem = UITabBarItem(title: "tab_browse".localizedValue, image: UIImage(named: "ic_browse"), tag: rawValue)
             vc.tabBarItem = tabItem
             vc.view.backgroundColor = .yellow
             return vc
-        case .five:
+        case .more:
             let vc = UIViewController()
-            let tabItem = UITabBarItem(title: "Five", image: nil, tag: rawValue)
+            let tabItem = UITabBarItem(title: "tab_more".localizedValue, image: UIImage(named: "ic_more"), tag: rawValue)
             vc.tabBarItem = tabItem
             vc.view.backgroundColor = .purple
             return vc
