@@ -5,6 +5,7 @@
 import Foundation
 import UIKit
 import SnapKit
+import CoreData
 
 class LibraryItemCollectionViewCell: UICollectionViewCell, Identified {
 
@@ -38,7 +39,6 @@ class LibraryItemCollectionViewCell: UICollectionViewCell, Identified {
     }
 
     func configureSubviews() {
-
         backgroundColor = .white
         layer.cornerRadius = 10
         clipsToBounds = true

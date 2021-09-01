@@ -11,6 +11,13 @@
 		1646964226DE96F200B9E5F7 /* LocalizationUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1646964126DE96F200B9E5F7 /* LocalizationUtilities.swift */; };
 		1646964526DE986B00B9E5F7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1646964726DE986B00B9E5F7 /* Localizable.strings */; };
 		1646964A26DED32300B9E5F7 /* PTSans-Narrow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1646964926DED32300B9E5F7 /* PTSans-Narrow-Bold.ttf */; };
+		1646964D26DF727100B9E5F7 /* Tachiyomi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1646964B26DF727100B9E5F7 /* Tachiyomi.xcdatamodeld */; };
+		1646966026DF7A1A00B9E5F7 /* Source+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1646965A26DF7A1900B9E5F7 /* Source+CoreDataProperties.swift */; };
+		1646966126DF7A1A00B9E5F7 /* Title+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1646965B26DF7A1900B9E5F7 /* Title+CoreDataProperties.swift */; };
+		1646966226DF7A1A00B9E5F7 /* Chapter+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1646965C26DF7A1900B9E5F7 /* Chapter+CoreDataClass.swift */; };
+		1646966326DF7A1A00B9E5F7 /* Source+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1646965D26DF7A1900B9E5F7 /* Source+CoreDataClass.swift */; };
+		1646966426DF7A1A00B9E5F7 /* Title+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1646965E26DF7A1A00B9E5F7 /* Title+CoreDataClass.swift */; };
+		1646966526DF7A1A00B9E5F7 /* Chapter+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1646965F26DF7A1A00B9E5F7 /* Chapter+CoreDataProperties.swift */; };
 		603540FEAEBD5197072FB604 /* Identified.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354AEDF1A1E75D677F0BD5 /* Identified.swift */; };
 		603541304ADBCFBC43DF4697 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354ECB3D57B2170EE01D47 /* HistoryViewController.swift */; };
 		6035418B27692C0BF91EA86A /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354B9DCDF875BD6CC5B786 /* RootTabBarController.swift */; };
@@ -38,6 +45,13 @@
 		1646964626DE986B00B9E5F7 /* en-US */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-US"; path = "en-US.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		1646964826DE987400B9E5F7 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		1646964926DED32300B9E5F7 /* PTSans-Narrow-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PTSans-Narrow-Bold.ttf"; sourceTree = "<group>"; };
+		1646964C26DF727100B9E5F7 /* Tachiyomi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tachiyomi.xcdatamodel; sourceTree = "<group>"; };
+		1646965A26DF7A1900B9E5F7 /* Source+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Source+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1646965B26DF7A1900B9E5F7 /* Title+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Title+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1646965C26DF7A1900B9E5F7 /* Chapter+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Chapter+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1646965D26DF7A1900B9E5F7 /* Source+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Source+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1646965E26DF7A1A00B9E5F7 /* Title+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Title+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1646965F26DF7A1A00B9E5F7 /* Chapter+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Chapter+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		1DA42EC82F150FBB31C42618 /* Pods-Tachiyomi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tachiyomi.debug.xcconfig"; path = "Target Support Files/Pods-Tachiyomi/Pods-Tachiyomi.debug.xcconfig"; sourceTree = "<group>"; };
 		60354013A92D96A0D8081483 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60354097C67E74E0E8292C16 /* UIFont+Tachiyomi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Tachiyomi.swift"; sourceTree = "<group>"; };
@@ -118,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				6035431592E83BE36BC96A50 /* LibraryItem.swift */,
+				60354A5DFC4BFA904AAB9BD0 /* Entities */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -140,6 +155,7 @@
 				60354B49EBEBE1F92A0CE46C /* Info.plist */,
 				603540F6E7C88D613B9C79C8 /* LaunchScreen.storyboard */,
 				1646964726DE986B00B9E5F7 /* Localizable.strings */,
+				1646964B26DF727100B9E5F7 /* Tachiyomi.xcdatamodeld */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -175,6 +191,19 @@
 				60354ECB3D57B2170EE01D47 /* HistoryViewController.swift */,
 			);
 			path = History;
+			sourceTree = "<group>";
+		};
+		60354A5DFC4BFA904AAB9BD0 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				1646965E26DF7A1A00B9E5F7 /* Title+CoreDataClass.swift */,
+				1646965B26DF7A1900B9E5F7 /* Title+CoreDataProperties.swift */,
+				1646965C26DF7A1900B9E5F7 /* Chapter+CoreDataClass.swift */,
+				1646965F26DF7A1A00B9E5F7 /* Chapter+CoreDataProperties.swift */,
+				1646965D26DF7A1900B9E5F7 /* Source+CoreDataClass.swift */,
+				1646965A26DF7A1900B9E5F7 /* Source+CoreDataProperties.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		60354A61D98B967E5805FE13 /* Source */ = {
@@ -369,23 +398,30 @@
 			files = (
 				1646964226DE96F200B9E5F7 /* LocalizationUtilities.swift in Sources */,
 				6035429A04831C98F983043B /* SceneDelegate.swift in Sources */,
+				1646966326DF7A1A00B9E5F7 /* Source+CoreDataClass.swift in Sources */,
 				60354B9EA4E80C9ADE0625E2 /* AppDelegate.swift in Sources */,
 				6035418B27692C0BF91EA86A /* RootTabBarController.swift in Sources */,
 				603542CE4F5F2406581E3346 /* BaseTabBarController.swift in Sources */,
+				1646964D26DF727100B9E5F7 /* Tachiyomi.xcdatamodeld in Sources */,
 				603548C7B45875480BA26505 /* BaseNavigationController.swift in Sources */,
 				603549C578269CB91191842B /* NavigableTab.swift in Sources */,
 				60354CED01C20CA19A50325D /* UIColor+Tachiyomi.swift in Sources */,
+				1646966426DF7A1A00B9E5F7 /* Title+CoreDataClass.swift in Sources */,
 				603544C8C5CAF26E221D5B1C /* LibraryRootViewController.swift in Sources */,
 				603541304ADBCFBC43DF4697 /* HistoryViewController.swift in Sources */,
 				603544FACE81EDDE2ED50EB0 /* UpdatesViewController.swift in Sources */,
+				1646966526DF7A1A00B9E5F7 /* Chapter+CoreDataProperties.swift in Sources */,
+				1646966226DF7A1A00B9E5F7 /* Chapter+CoreDataClass.swift in Sources */,
 				60354872E385F6EA31DED2DE /* MoreViewController.swift in Sources */,
 				60354DE0B162D1F3D021FE8B /* BaseViewController.swift in Sources */,
 				603548BE91DD9CBE6DEEF40A /* BrowseViewController.swift in Sources */,
 				60354AD4D21D7040000F955F /* LibraryRootViewModel.swift in Sources */,
 				603543435914075AA9AC2053 /* LibraryItemCollectionViewCell.swift in Sources */,
 				60354E7E6C0FD766DA24EFB3 /* LibraryItem.swift in Sources */,
+				1646966126DF7A1A00B9E5F7 /* Title+CoreDataProperties.swift in Sources */,
 				603540FEAEBD5197072FB604 /* Identified.swift in Sources */,
 				6035430B2DB9413EDD68EBAD /* UIFont+Tachiyomi.swift in Sources */,
+				1646966026DF7A1A00B9E5F7 /* Source+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +609,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1646964B26DF727100B9E5F7 /* Tachiyomi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1646964C26DF727100B9E5F7 /* Tachiyomi.xcdatamodel */,
+			);
+			currentVersion = 1646964C26DF727100B9E5F7 /* Tachiyomi.xcdatamodel */;
+			path = Tachiyomi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 603548158428B940B1D857F0 /* Project object */;
 }
