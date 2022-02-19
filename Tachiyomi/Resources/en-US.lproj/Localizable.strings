@@ -12,3 +12,7 @@
 "tab_history" = "History";
 "tab_browse" = "Browse";
 "tab_more" = "More";
+
+// Browse
+"browse_segment_sources" = "Sources";
+"browse_segment_extensions" = "Extensions";

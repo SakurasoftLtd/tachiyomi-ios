@@ -10,12 +10,14 @@ PODS:
   - RxRelay (6.2.0):
     - RxSwift (= 6.2.0)
   - RxSwift (6.2.0)
+  - SharkORM (2.3.62)
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - RxDataSources
   - RxRelay
   - RxSwift
+  - SharkORM
   - SnapKit
 
 SPEC REPOS:
@@ -25,6 +27,7 @@ SPEC REPOS:
     - RxDataSources
     - RxRelay
     - RxSwift
+    - SharkORM
     - SnapKit
 
 SPEC CHECKSUMS:
@@ -33,8 +36,9 @@ SPEC CHECKSUMS:
   RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
   RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
   RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  SharkORM: ff65244dfc2e1fa4613badad7c42f6febc1951cc
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: b00fdbec9b88931c68b6c4718b2b33f0970060f6
+PODFILE CHECKSUM: db392dac9ac4066a627cf5089adff3692f870a5d
 
 COCOAPODS: 1.10.1

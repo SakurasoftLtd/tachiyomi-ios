@@ -7,11 +7,20 @@
 //
 
 import UIKit
+import SharkORM
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, SRKDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        SharkORM.setDelegate(self)
+        SharkORM.openDatabaseNamed("Tachiyomi")
+
+        if FirstRunHelper.isFirstRun() {
+            DatabaseSeeder.seedLocalSource()
+            FirstRunHelper.markFirstRunComplete()
+        }
+
         return true
     }
 
