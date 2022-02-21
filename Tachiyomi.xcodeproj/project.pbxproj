@@ -16,7 +16,6 @@
 		603541304ADBCFBC43DF4697 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354ECB3D57B2170EE01D47 /* HistoryViewController.swift */; };
 		6035418030576F9B90306C12 /* DatabaseSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354E1989B5E1EE21542A50 /* DatabaseSeeder.swift */; };
 		6035418B27692C0BF91EA86A /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354B9DCDF875BD6CC5B786 /* RootTabBarController.swift */; };
-		6035428BFBDEA3A56D17856B /* BrowseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354D00C9EA4F33E79721C9 /* BrowseViewModel.swift */; };
 		6035429A04831C98F983043B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354501B7976021B9444DF9 /* SceneDelegate.swift */; };
 		603542CE4F5F2406581E3346 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603546BB24214D80E7D989A7 /* BaseTabBarController.swift */; };
 		6035430B2DB9413EDD68EBAD /* UIFont+Tachiyomi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354097C67E74E0E8292C16 /* UIFont+Tachiyomi.swift */; };
@@ -27,16 +26,16 @@
 		603544FACE81EDDE2ED50EB0 /* UpdatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354861BD87EA2205CF9775 /* UpdatesViewController.swift */; };
 		603545686FA641337E8A7A72 /* BrowseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6035420B308B034DB7FB198D /* BrowseTableViewCell.swift */; };
 		60354872E385F6EA31DED2DE /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354B755BEEFDB3017996F2 /* MoreViewController.swift */; };
-		603548BE91DD9CBE6DEEF40A /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6035468725209644931373F4 /* BrowseViewController.swift */; };
+		603548BE91DD9CBE6DEEF40A /* BrowseContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6035468725209644931373F4 /* BrowseContainerViewController.swift */; };
 		603548C7B45875480BA26505 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6035488D784A93E9CAA23823 /* BaseNavigationController.swift */; };
 		603549C578269CB91191842B /* NavigableTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6035483C7B7CB42CF33E5E7D /* NavigableTab.swift */; };
 		603549E3A931EADEFF9CAE62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603544AD0E53A7B268B982AD /* Assets.xcassets */; };
 		60354AD4D21D7040000F955F /* LibraryRootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354691BB7E00EDAD59FF27 /* LibraryRootViewModel.swift */; };
 		60354B9EA4E80C9ADE0625E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354013A92D96A0D8081483 /* AppDelegate.swift */; };
-		60354BAD3EB4FDF976676E4E /* BrowseSourcesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354F4788DE4F529D9E7DD9 /* BrowseSourcesViewModel.swift */; };
+		60354BAD3EB4FDF976676E4E /* BrowseSourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354F4788DE4F529D9E7DD9 /* BrowseSourcesViewController.swift */; };
 		60354CED01C20CA19A50325D /* UIColor+Tachiyomi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603548F03285C5686E01A3E4 /* UIColor+Tachiyomi.swift */; };
 		60354DBA2C14B8FF9A8A2AC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603540F6E7C88D613B9C79C8 /* LaunchScreen.storyboard */; };
-		60354DD98FF1D26BE0415C45 /* BrowseExtensionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603545C9362CE816AF7E80FC /* BrowseExtensionsViewModel.swift */; };
+		60354DD98FF1D26BE0415C45 /* BrowseExtensionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603545C9362CE816AF7E80FC /* BrowseExtensionsViewController.swift */; };
 		60354DE0B162D1F3D021FE8B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60354B307514CA5FA062F1AC /* BaseViewController.swift */; };
 		60354E7E6C0FD766DA24EFB3 /* LibraryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6035431592E83BE36BC96A50 /* LibraryItem.swift */; };
 /* End PBXBuildFile section */
@@ -56,9 +55,9 @@
 		6035431592E83BE36BC96A50 /* LibraryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryItem.swift; sourceTree = "<group>"; };
 		603544AD0E53A7B268B982AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60354501B7976021B9444DF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		603545C9362CE816AF7E80FC /* BrowseExtensionsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseExtensionsViewModel.swift; sourceTree = "<group>"; };
+		603545C9362CE816AF7E80FC /* BrowseExtensionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseExtensionsViewController.swift; sourceTree = "<group>"; };
 		6035464DD69568BD78303A6B /* LibraryRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryRootViewController.swift; sourceTree = "<group>"; };
-		6035468725209644931373F4 /* BrowseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
+		6035468725209644931373F4 /* BrowseContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseContainerViewController.swift; sourceTree = "<group>"; };
 		60354691BB7E00EDAD59FF27 /* LibraryRootViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryRootViewModel.swift; sourceTree = "<group>"; };
 		603546BB24214D80E7D989A7 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 		6035483C7B7CB42CF33E5E7D /* NavigableTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigableTab.swift; sourceTree = "<group>"; };
@@ -71,12 +70,11 @@
 		60354B49EBEBE1F92A0CE46C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		60354B755BEEFDB3017996F2 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		60354B9DCDF875BD6CC5B786 /* RootTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
-		60354D00C9EA4F33E79721C9 /* BrowseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseViewModel.swift; sourceTree = "<group>"; };
 		60354D66C0F902B6E149D2C5 /* Source.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
 		60354D9CF2F7A26E286075FA /* Tachiyomi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tachiyomi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60354E1989B5E1EE21542A50 /* DatabaseSeeder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseSeeder.swift; sourceTree = "<group>"; };
 		60354ECB3D57B2170EE01D47 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
-		60354F4788DE4F529D9E7DD9 /* BrowseSourcesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseSourcesViewModel.swift; sourceTree = "<group>"; };
+		60354F4788DE4F529D9E7DD9 /* BrowseSourcesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseSourcesViewController.swift; sourceTree = "<group>"; };
 		7F6238F85BDE646D4F3637E0 /* Pods_Tachiyomi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tachiyomi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73D1F6375C3B867A0269007 /* Pods-Tachiyomi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tachiyomi.release.xcconfig"; path = "Target Support Files/Pods-Tachiyomi/Pods-Tachiyomi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,10 +133,9 @@
 		6035441D4FABB3950039A72D /* Browse */ = {
 			isa = PBXGroup;
 			children = (
-				6035468725209644931373F4 /* BrowseViewController.swift */,
-				60354F4788DE4F529D9E7DD9 /* BrowseSourcesViewModel.swift */,
-				603545C9362CE816AF7E80FC /* BrowseExtensionsViewModel.swift */,
-				60354D00C9EA4F33E79721C9 /* BrowseViewModel.swift */,
+				6035468725209644931373F4 /* BrowseContainerViewController.swift */,
+				60354F4788DE4F529D9E7DD9 /* BrowseSourcesViewController.swift */,
+				603545C9362CE816AF7E80FC /* BrowseExtensionsViewController.swift */,
 				6035420B308B034DB7FB198D /* BrowseTableViewCell.swift */,
 			);
 			path = Browse;
@@ -428,15 +425,14 @@
 				603544FACE81EDDE2ED50EB0 /* UpdatesViewController.swift in Sources */,
 				60354872E385F6EA31DED2DE /* MoreViewController.swift in Sources */,
 				60354DE0B162D1F3D021FE8B /* BaseViewController.swift in Sources */,
-				603548BE91DD9CBE6DEEF40A /* BrowseViewController.swift in Sources */,
+				603548BE91DD9CBE6DEEF40A /* BrowseContainerViewController.swift in Sources */,
 				60354AD4D21D7040000F955F /* LibraryRootViewModel.swift in Sources */,
 				603543435914075AA9AC2053 /* LibraryItemCollectionViewCell.swift in Sources */,
 				60354E7E6C0FD766DA24EFB3 /* LibraryItem.swift in Sources */,
 				603540FEAEBD5197072FB604 /* Identified.swift in Sources */,
 				6035430B2DB9413EDD68EBAD /* UIFont+Tachiyomi.swift in Sources */,
-				60354BAD3EB4FDF976676E4E /* BrowseSourcesViewModel.swift in Sources */,
-				60354DD98FF1D26BE0415C45 /* BrowseExtensionsViewModel.swift in Sources */,
-				6035428BFBDEA3A56D17856B /* BrowseViewModel.swift in Sources */,
+				60354BAD3EB4FDF976676E4E /* BrowseSourcesViewController.swift in Sources */,
+				60354DD98FF1D26BE0415C45 /* BrowseExtensionsViewController.swift in Sources */,
 				603544216BF6B0830DCC9777 /* Source.swift in Sources */,
 				6035418030576F9B90306C12 /* DatabaseSeeder.swift in Sources */,
 				603543FBA7F0E92ABD55D601 /* FirstRunHelper.swift in Sources */,

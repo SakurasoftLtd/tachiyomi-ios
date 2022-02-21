@@ -15,6 +15,6 @@ extension UIFont {
     }
     
     static var tachiyomiCtaText: UIFont {
-        .systemFont(ofSize: 24)
+        .systemFont(ofSize: 22)
     }
 }
