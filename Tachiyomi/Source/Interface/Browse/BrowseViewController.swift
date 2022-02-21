@@ -25,6 +25,13 @@ class BrowseViewController: BaseViewController {
         it.backgroundColor = .clear
         return it
     }()
+    
+    private lazy var noResultsView: NoResultsView = {
+        let it = NoResultsView(text: "You don't have any extension repositories configured.", cta: "Add one?")
+        it.translatesAutoresizingMaskIntoConstraints = false
+//        it.isHidden = true
+        return it
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +40,7 @@ class BrowseViewController: BaseViewController {
     }
 
     private func configureSubviews() {
-        [segmentedControl, tableView].forEach(view.addSubview)
+        [segmentedControl, tableView, noResultsView].forEach(view.addSubview)
 
         segmentedControl.snp.makeConstraints { (make: ConstraintMaker) in
             make.top.leading.trailing.equalToSuperview().inset(80)
@@ -43,6 +50,11 @@ class BrowseViewController: BaseViewController {
         tableView.snp.makeConstraints { (make: ConstraintMaker) in
             make.top.equalTo(segmentedControl.snp.bottom).offset(16)
             make.leading.trailing.bottom.equalTo(self.view.safeAreaLayoutGuide)
+        }
+        
+        noResultsView.snp.makeConstraints { make in
+            make.center.equalTo(tableView)
+            make.width.equalTo(tableView).dividedBy(2)
         }
     }
 }
