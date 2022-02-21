@@ -37,7 +37,7 @@ class LibraryRootViewController: BaseViewController {
         view.addSubview(collectionView)
 
         collectionView.snp.makeConstraints { (make: ConstraintMaker) in
-            make.edges.equalToSuperview().inset(16)
+            make.edges.equalTo(self.view.safeAreaLayoutGuide)
         }
     }
 

@@ -22,6 +22,7 @@ class BrowseViewController: BaseViewController {
     private lazy var tableView: UITableView = {
         let it = UITableView()
         it.translatesAutoresizingMaskIntoConstraints = false
+        it.backgroundColor = .clear
         return it
     }()
 
@@ -41,7 +42,7 @@ class BrowseViewController: BaseViewController {
 
         tableView.snp.makeConstraints { (make: ConstraintMaker) in
             make.top.equalTo(segmentedControl.snp.bottom).offset(16)
-            make.leading.trailing.bottom.equalToSuperview().inset(16)
+            make.leading.trailing.bottom.equalTo(self.view.safeAreaLayoutGuide)
         }
     }
 }
